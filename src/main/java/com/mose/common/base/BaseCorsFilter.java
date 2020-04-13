@@ -1,4 +1,4 @@
-package com.web.wps.config;
+package com.mose.common.base;
 
 import org.springframework.stereotype.Component;
 
@@ -13,7 +13,7 @@ import java.io.IOException;
  * @since 2019年10月12日
  */
 @Component
-public class CorsFilter implements Filter {
+public class BaseCorsFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException {

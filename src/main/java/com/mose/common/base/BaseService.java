@@ -1,4 +1,4 @@
-package com.web.wps.base;
+package com.mose.common.base;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

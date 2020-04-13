@@ -1,8 +1,8 @@
-package com.web.wps.base;
+package com.mose.common.base;
 
 import javax.servlet.http.HttpServletRequest;
 
-public class Request {
+public class BaseRequest {
 
     public static String getHeaderParam(HttpServletRequest request,String key) {
         return request.getHeader(key);

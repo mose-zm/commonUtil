@@ -1,4 +1,4 @@
-package com.web.wps.base;
+package com.mose.common.base;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -16,7 +16,7 @@ import java.util.Map;
  * @since 1.0
  * @version 1.0 2019年7月14日
  */
-public class Response {
+public class BaseResponse {
 	// keys
 	private final static String MSG_KEY = "msg";
 	private final static String STATUS_KEY = "status";

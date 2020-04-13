@@ -2,7 +2,7 @@
  * www.takead.cn
  * Copyright (c) 2012-2013 All Rights Reserved.
  */
-package com.web.wps.base;
+package com.mose.common.base;
 
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.repository.NoRepositoryBean;
